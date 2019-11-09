@@ -1,0 +1,14 @@
+#chat-wrapper {
+    width: 100%;
+}
+
+#chat-window {
+    width: 100%;
+    height: 100px;
+    background: whitesmoke;
+}
+
+.chat-controls {
+    display: flex;
+}
+
