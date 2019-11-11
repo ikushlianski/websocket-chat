@@ -8,5 +8,10 @@ server.listen(4000, () => console.log('Listening for requests on port 4000'));
 app.use(express.static('public'));
 
 io.on('connection', (socket) => {
-  console.log('made socket connection')
+  console.log('made socket connection');
+
+  socket.on('chat', (data) => {
+    io.sockets.emit('chat', data);
+  })
 });
+
