@@ -20,3 +20,13 @@
 #handle {
     border: 1px solid lightblue;
 }
+
+.chat-message {
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.feedback {
+    font-style: italic;
+    color: lightgrey;
+}
